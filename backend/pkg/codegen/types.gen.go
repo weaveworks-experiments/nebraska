@@ -312,16 +312,16 @@ type VersionBreakdownEntry struct {
 
 // PaginateActivityParams defines parameters for PaginateActivity.
 type PaginateActivityParams struct {
-	AppID      *string `json:"appID,omitempty"`
-	GroupID    *string `json:"groupID,omitempty"`
-	ChannelID  *string `json:"channelID,omitempty"`
-	InstanceID *string `json:"instanceID,omitempty"`
-	Version    *string `json:"version,omitempty"`
-	Severity   *int    `json:"severity,omitempty"`
-	Start      string  `json:"start"`
-	End        string  `json:"end"`
-	Page       *int    `json:"page,omitempty"`
-	Perpage    *int    `json:"perpage,omitempty"`
+	AppIDorProductID *string `json:"appIDorProductID,omitempty"`
+	GroupID          *string `json:"groupID,omitempty"`
+	ChannelID        *string `json:"channelID,omitempty"`
+	InstanceID       *string `json:"instanceID,omitempty"`
+	Version          *string `json:"version,omitempty"`
+	Severity         *int    `json:"severity,omitempty"`
+	Start            string  `json:"start"`
+	End              string  `json:"end"`
+	Page             *int    `json:"page,omitempty"`
+	Perpage          *int    `json:"perpage,omitempty"`
 }
 
 // PaginateAppsParams defines parameters for PaginateApps.
